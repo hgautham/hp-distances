@@ -36,9 +36,9 @@ function App() {
             <input type="text" id="num" placeholder="enter a distance" /><br />
             <button onClick={Broomify}>Calculate</button><br /><br />
             <button>Hogwarts Express</button>
-            <input type="text" id="result" value={currentSum}  readOnly /><br/>
+            <input type="text" id="result" value={expressSum}  readOnly /><br/>
             <button>Broom</button>
-            <input type="text" id="result" value={expressSum}  readOnly />
+            <input type="text" id="result" value={currentSum}  readOnly />
       </form>
 
       <p>
